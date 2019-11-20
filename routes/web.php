@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('tiendas/create','ShopController@create')->name('tiendas.create');
+Route::get('tiendas/create','ShopController@index')->name('tiendas.create');
 Route::post('tiendas/store','ShopController@store')->name('tiendas.store');
 Route::get('productos/index','ProductController@index')->name('productos.index');
+

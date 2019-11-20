@@ -11,7 +11,7 @@
   <ul>
     <li>Vista: La vista muestra informacion al usuario</li>
     <li>Controlador: El controlador interactua con el usuario, por ejemplo le indica donde esta la view .</li>
-    <li>Modelo: El.</li>
+    <li>Modelo: Interactua con la base de datos</li>
   </ul>
 
 
